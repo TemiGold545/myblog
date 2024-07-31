@@ -1,0 +1,22 @@
+.Tad{
+background-color: skyblue;
+
+}
+.Mad{
+background-color: seagreen;
+}
+ul{
+list-style-type: none;
+}
+li{
+display: inline;
+padding: 10px;
+background-color: skyblue;
+border:2px groove lawngreen;
+margin: 10px;
+ }
+li a{ text-decoration: none;
+}
+li a:hover{
+	border: 4px dotted orangered;
+}

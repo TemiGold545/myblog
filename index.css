@@ -1,0 +1,64 @@
+#head{
+background-image: url("ABSTRACT.jpg");
+width: 100%;
+height: 1000px;
+align-content: center;
+}
+h1{
+color: lawngreen;
+text-align: center;
+font-size: 3.5em;
+}
+.navigation{
+background-color: lightsalmon;
+}
+h2{
+animation: 3s colorchange infinite;
+}
+@keyframes colorchange{
+ 0%{color: seagreen;}
+20%{color: lawngreen;}
+35%{color: royalblue;}
+50%{color: forestgreen;}
+65%{color: skyblue;}
+80%{color: orangered;}
+95%{color: palegoldenrod;}
+100%{color: gold;}
+
+}
+ul{
+list-style-type: none;
+}
+li{
+display: inline;
+padding: 10px;
+background-color: skyblue;
+border:2px groove lawngreen;
+margin: 10px;
+ }
+li a{ text-decoration: none;
+}
+li a:hover{
+	border: 4px dotted orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

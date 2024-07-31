@@ -1,0 +1,50 @@
+img{
+    width: 190px;
+	height: 150px;
+	position: absolute;
+}
+#sky{
+background-color: skyblue;
+height: 300px;
+width: 100%;
+} 
+#sea{
+background-color: royalblue;	 
+height: 400px;
+width: 100%;
+}
+#good{
+animation: sunmovement 10s infinite;
+}
+#bad{
+animation: rainbowmovement 3s infinite;
+}
+#average{
+	animation: boatmovement 3s infinite;
+}
+@keyframes sunmovement{
+0%{top: 150px ;}
+50%{left: 300px;
+  top:2px;} 
+100%{left: 690px;
+top: 150px;}
+}
+@keyframes boatmovement{
+	0%{left: 150px;}
+  50%{left: 300px;}
+  100%{left: 600px;}  
+}
+@keyframes rainbowmovement{
+
+
+	
+}
+
+
+ 
+
+
+
+
+
+
