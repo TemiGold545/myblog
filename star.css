@@ -1,0 +1,28 @@
+#head{
+background-image: url("ABSTRACT.jpg");
+width: 100%;
+height: 250px;
+align-content: center;
+}
+h1{
+color: lawngreen;
+text-align: center;
+font-size: 1.7em;
+}
+h2{
+background-color: skyblue;
+animation: 3s colorchange infinite;
+}
+@keyframes colorchange{
+ 0%{color: forestgreen;}
+20%{color: lawngreen;}
+35%{color: royalblue;}
+50%{color: darkred;}
+65%{color: darkmagenta;}
+80%{color: orangered;}
+95%{color: yellowgreen;}
+100%{color: orange;}
+
+
+
+
